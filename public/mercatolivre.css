@@ -1,0 +1,85 @@
+body{
+	text-align: center;
+	margin: 50px;
+	padding:20px;
+	width: 92%;
+	background-color: rgba(0,150,0, 0.3);
+}
+h1{
+	border:3px solid yellow;
+	background-color: rgba(0,125,0,0.5);
+	margin: 50px;
+}
+
+h2{
+	border:3px solid yellow;
+	width: 400px;
+	background-color: rgba(0,125,0,0.5);
+
+}
+ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 30px;
+
+}
+
+img{
+	width:120px;
+	height: 120px;
+	border:2px solid green;
+	border-radius: 100%;
+	padding: 10px;
+	
+}
+
+#main-container{
+	display: flex;
+	justify-content: flex-start;
+}
+
+tr{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+td{
+	text-align: center;
+	text-transform: uppercase;
+	color:rgb(125,125,125);
+	font-weight: bold;
+	border: 1px solid rgb(125,125,125);
+}
+
+
+
+li{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+a{
+	text-decoration: none;
+	color: green;
+	display: flex;
+	align-items: flex-start;
+}
+
+table{
+	display: flex;
+	flex-direction: column;
+
+}
+#formulaire{
+	text-align: left;
+	margin-left: 30px;
+}
+input{
+	display: flex;
+	align-items: center;
+}
+label{
+	color:rgb(100,100,100); 
+}

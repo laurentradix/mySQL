@@ -1,0 +1,27 @@
+<?php include'header.phtml';?>
+
+<h2>recherche</h2>
+
+<div id = "main-container">
+
+<?php if(count($products)==0):?>
+
+	Produit introuvable
+
+<?else: ?>
+	<ul>
+	
+		<?php foreach ($products as $product): ?>
+			<li>
+				<h3>>nom: <?= $product["name"]?></h3>
+				<p>prix : <?= $product["price"]?> cents</p>
+				<img src="<?= $product["photo"]?>">
+				<p>stock :<?= $product["is_active"]?></p>
+			</li>
+			
+		<?php endforeach; ?>
+	</ul>
+<?endif>
+	
+</div>
+<?php include'footer.phtml'; ?>
