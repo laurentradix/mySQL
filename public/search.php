@@ -1,5 +1,6 @@
 <? php
-$word = $get['word'];
+
+/*$word = $get['word'];
 $product = getProductList($word);
 
-include'../public/search.php';
+include'../public/search.php';/*
