@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 function pre($thing) {
 	echo '<pre>';
